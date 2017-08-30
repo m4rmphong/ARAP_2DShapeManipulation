@@ -1,0 +1,62 @@
+﻿Build started 2017/8/30 下午 05:23:30.
+     1>Project "D:\NCTU\ISM\Final Project\ARAPSM\ARAPSM\ARAPSM.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\OpenCV\opencv-2.4.13\build\include" /I..\Lib\CSparse\Include /I..\Lib\Taucs /I..\Lib\glut /I..\Lib\FreeImage /I..\Lib\Eigen /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+     1>D:\NCTU\ISM\Final Project\ARAPSM\Lib\FreeImage\FreeImage.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>d:\nctu\ism\final project\arapsm\arapsm\triangle.h(262): warning C4005: 'VOID' : macro redefinition
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(382) : see previous definition of 'VOID'
+     1>Source.cpp(155): warning C4018: '<' : signed/unsigned mismatch
+     1>Source.cpp(162): warning C4018: '<' : signed/unsigned mismatch
+     1>Source.cpp(168): warning C4018: '<' : signed/unsigned mismatch
+     1>Source.cpp(169): warning C4018: '<' : signed/unsigned mismatch
+     1>Source.cpp(182): warning C4018: '<' : signed/unsigned mismatch
+     1>Source.cpp(185): warning C4018: '<' : signed/unsigned mismatch
+     1>Source.cpp(235): warning C4018: '<' : signed/unsigned mismatch
+     1>Source.cpp(271): warning C4018: '<' : signed/unsigned mismatch
+     1>Source.cpp(283): warning C4018: '<' : signed/unsigned mismatch
+     1>Source.cpp(308): warning C4018: '<' : signed/unsigned mismatch
+     1>Source.cpp(324): warning C4018: '<' : signed/unsigned mismatch
+     1>Source.cpp(350): warning C4018: '<' : signed/unsigned mismatch
+     1>Source.cpp(354): warning C4018: '<' : signed/unsigned mismatch
+     1>Source.cpp(366): warning C4018: '<' : signed/unsigned mismatch
+     1>Source.cpp(396): warning C4018: '<' : signed/unsigned mismatch
+     1>Source.cpp(420): warning C4018: '<' : signed/unsigned mismatch
+     1>Source.cpp(431): warning C4018: '<' : signed/unsigned mismatch
+     1>Source.cpp(443): warning C4018: '<' : signed/unsigned mismatch
+     1>Source.cpp(476): warning C4018: '<' : signed/unsigned mismatch
+     1>Source.cpp(482): warning C4018: '<' : signed/unsigned mismatch
+     1>Source.cpp(514): warning C4018: '<' : signed/unsigned mismatch
+     1>Source.cpp(534): warning C4018: '<' : signed/unsigned mismatch
+     1>Source.cpp(547): warning C4018: '<' : signed/unsigned mismatch
+     1>Source.cpp(564): warning C4018: '<' : signed/unsigned mismatch
+     1>Source.cpp(581): warning C4018: '<' : signed/unsigned mismatch
+     1>Source.cpp(588): warning C4018: '<' : signed/unsigned mismatch
+     1>Source.cpp(621): warning C4018: '<' : signed/unsigned mismatch
+     1>Source.cpp(654): warning C4101: 's' : unreferenced local variable
+     1>Source.cpp(685): warning C4018: '<' : signed/unsigned mismatch
+     1>Source.cpp(711): warning C4018: '<' : signed/unsigned mismatch
+     1>Source.cpp(727): warning C4018: '<' : signed/unsigned mismatch
+     1>Source.cpp(789): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\NCTU\ISM\Final Project\ARAPSM\Release\ARAPSM.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\OpenCV\opencv-2.4.13\build\x86\vc12\lib" /LIBPATH:..\Lib\CSparse\lib /LIBPATH:..\Lib\Taucs /LIBPATH:..\Lib\glut /LIBPATH:..\Lib\FreeImage /LIBPATH:..\Lib\Eigen opencv_contrib2413.lib opencv_core2413.lib opencv_features2d2413.lib opencv_highgui2413.lib opencv_imgproc2413.lib FreeImage.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\NCTU\ISM\Final Project\ARAPSM\Release\ARAPSM.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\NCTU\ISM\Final Project\ARAPSM\Release\ARAPSM.lib" /MACHINE:X86 /SAFESEH:NO Release\ImageMesh.obj
+         Release\mtxlib.obj
+         Release\Source.obj
+         Release\triangle.obj
+         Release\ImageTriagulator.obj
+         Generating code
+         Finished generating code
+     1>CSparse.lib(cs_util.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'CSparse.lib(cs_util.obj)' or at 'D:\NCTU\ISM\Final Project\ARAPSM\Release\vc120.pdb'; linking object as if no debug info
+     1>CSparse.lib(cs_compress.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'CSparse.lib(cs_compress.obj)' or at 'D:\NCTU\ISM\Final Project\ARAPSM\Release\vc120.pdb'; linking object as if no debug info
+     1>CSparse.lib(cs_entry.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'CSparse.lib(cs_entry.obj)' or at 'D:\NCTU\ISM\Final Project\ARAPSM\Release\vc120.pdb'; linking object as if no debug info
+     1>CSparse.lib(cs_transpose.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'CSparse.lib(cs_transpose.obj)' or at 'D:\NCTU\ISM\Final Project\ARAPSM\Release\vc120.pdb'; linking object as if no debug info
+     1>CSparse.lib(cs_multiply.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'CSparse.lib(cs_multiply.obj)' or at 'D:\NCTU\ISM\Final Project\ARAPSM\Release\vc120.pdb'; linking object as if no debug info
+     1>CSparse.lib(cs_malloc.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'CSparse.lib(cs_malloc.obj)' or at 'D:\NCTU\ISM\Final Project\ARAPSM\Release\vc120.pdb'; linking object as if no debug info
+     1>CSparse.lib(cs_cumsum.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'CSparse.lib(cs_cumsum.obj)' or at 'D:\NCTU\ISM\Final Project\ARAPSM\Release\vc120.pdb'; linking object as if no debug info
+     1>CSparse.lib(cs_scatter.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'CSparse.lib(cs_scatter.obj)' or at 'D:\NCTU\ISM\Final Project\ARAPSM\Release\vc120.pdb'; linking object as if no debug info
+         ARAPSM.vcxproj -> D:\NCTU\ISM\Final Project\ARAPSM\Release\ARAPSM.exe
+     1>Done Building Project "D:\NCTU\ISM\Final Project\ARAPSM\ARAPSM\ARAPSM.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:09.35
